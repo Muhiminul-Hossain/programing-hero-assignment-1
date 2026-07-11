@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Inter;
 }
 nav {
@@ -34,11 +33,16 @@ nav {
   height: 786px;
 
   background:
-    linear-gradient(to bottom left, rgba(0, 0, 0, 0) 0% , rgba(0, 0, 0, 0.845) 50% ),
+    linear-gradient(
+      to bottom left,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.911) 60%
+    ),
     url(./assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  overflow: hidden;
 }
 .banner-content {
   margin: auto;
@@ -54,7 +58,7 @@ nav {
 .banner-article {
   text-align: center;
 }
-.banner-article p{
+.banner-article p {
   text-indent: 30px;
 }
 .banner-article h2 {
@@ -66,4 +70,51 @@ nav {
   font-size: 24px;
   font-weight: 400;
   color: #ffffffe5;
+}
+.speakers-card-section {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2 , 200px); */
+  margin: 50px auto;
+  gap: 30px 50px;
+}
+.speakers-section h1 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+.card {
+  display: grid;
+  gap: 10px 30px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 12px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.card a,
+h3,
+p {
+  border-radius: 20px;
+  padding: 0 30px;
+}
+.card > img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+.card a {
+  text-decoration: none;
+  color: #2563ebff;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.card h3 {
+  color: #0d1b2aff;
+  font-size: 20px;
+}
+.card p {
+  color: #575757ff;
+  font-size: 14px;
 }
