@@ -147,53 +147,67 @@ nav {
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.078);
 }
-.secure-spot-card h3{
-  color: #888888FF;
+.secure-spot-card h3 {
+  color: #888888ff;
   font-size: 13px;
   font-weight: 600;
   padding: 10px 0;
 }
-.secure-spot-card h2{
+.secure-spot-card h2 {
   font-size: 44px;
-  color: #0d1b2aFF;
+  color: #0d1b2aff;
   font-weight: 700;
   padding-bottom: 2px;
 }
-.secure-spot-card p{
+.secure-spot-card p {
   font-size: 13px;
-  color:#888888FF;
+  color: #888888ff;
   padding-bottom: 20px;
 }
-.secure-spot-card ul{
+.secure-spot-card ul {
   padding: 20px 20px;
 }
-.secure-spot-card ul> li{
+.secure-spot-card ul > li {
   padding: 7px 0;
 }
 .secure-spot-card ul > li::marker {
-  color: #2563ebFF;
+  color: #2563ebff;
 }
-.secure-spot-card button{
+.secure-spot-card button {
   padding: 15px 50px;
   border-radius: 10px;
-  border: 2px solid #2563ebFF;
-  color: #2563ebFF;
+  border: 2px solid #2563ebff;
+  color: #2563ebff;
   background-color: white;
   font-size: 14px;
   font-weight: 600;
 }
 /* pro card */
-.pro-card{
-  background-color:#0d1b2aFF;
+.pro-card {
+  background-color: #0d1b2aff;
 }
 .pro-card h2,
-.pro-card ul{
+.pro-card ul {
   color: white;
 }
-.pro-card h3{
-  color: #93c5fdFF;
+.pro-card h3 {
+  color: #93c5fdff;
 }
-.pro-card > button{
-  background-color: #2563ebFF;
+.pro-card > button {
+  background-color: #2563ebff;
   color: white;
+}
+ /* footer section  */
+ .footer-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d1b2a;
+  padding: 50px 70px;
+  color: #6e7677;
+  margin-top: 100px;
+ }
+.footer-ul ul{
+  list-style: none;
+  display: flex;
+  gap: 50px;
 }
