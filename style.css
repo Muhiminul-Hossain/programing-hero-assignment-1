@@ -71,11 +71,11 @@ nav {
   font-weight: 400;
   color: #ffffffe5;
 }
+/* <!-- Speakers Section Styles --> */
 .speakers-card-section {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(2 , 200px); */
   margin: 50px auto;
   gap: 30px 50px;
 }
@@ -94,8 +94,8 @@ nav {
   overflow: hidden;
 }
 .card a,
-h3,
-p {
+.card h3,
+.card p {
   border-radius: 20px;
   padding: 0 30px;
 }
@@ -117,4 +117,83 @@ p {
 .card p {
   color: #575757ff;
   font-size: 14px;
+}
+/* Secure Your Spot Section */
+.Secure-Your-Spot-section {
+  width: 65%;
+  margin: auto;
+}
+.Secure-Your-Spot-section > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 150px;
+}
+.Secure-Your-Spot-section > p {
+  text-align: center;
+  font-size: 16px;
+  color: #575757ff;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+.secure-spot-cards-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 30px;
+}
+.secure-spot-card {
+  padding: 30px 50px;
+  display: grid;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.078);
+}
+.secure-spot-card h3{
+  color: #888888FF;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.secure-spot-card h2{
+  font-size: 44px;
+  color: #0d1b2aFF;
+  font-weight: 700;
+  padding-bottom: 2px;
+}
+.secure-spot-card p{
+  font-size: 13px;
+  color:#888888FF;
+  padding-bottom: 20px;
+}
+.secure-spot-card ul{
+  padding: 20px 20px;
+}
+.secure-spot-card ul> li{
+  padding: 7px 0;
+}
+.secure-spot-card ul > li::marker {
+  color: #2563ebFF;
+}
+.secure-spot-card button{
+  padding: 15px 50px;
+  border-radius: 10px;
+  border: 2px solid #2563ebFF;
+  color: #2563ebFF;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* pro card */
+.pro-card{
+  background-color:#0d1b2aFF;
+}
+.pro-card h2,
+.pro-card ul{
+  color: white;
+}
+.pro-card h3{
+  color: #93c5fdFF;
+}
+.pro-card > button{
+  background-color: #2563ebFF;
+  color: white;
 }
